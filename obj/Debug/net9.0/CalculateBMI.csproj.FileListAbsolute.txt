@@ -1,0 +1,15 @@
+/Users/josefanderberg/source/repos/CalculateBMI/bin/Debug/net9.0/CalculateBMI
+/Users/josefanderberg/source/repos/CalculateBMI/bin/Debug/net9.0/CalculateBMI.deps.json
+/Users/josefanderberg/source/repos/CalculateBMI/bin/Debug/net9.0/CalculateBMI.runtimeconfig.json
+/Users/josefanderberg/source/repos/CalculateBMI/bin/Debug/net9.0/CalculateBMI.dll
+/Users/josefanderberg/source/repos/CalculateBMI/bin/Debug/net9.0/CalculateBMI.pdb
+/Users/josefanderberg/source/repos/CalculateBMI/obj/Debug/net9.0/CalculateBMI.GeneratedMSBuildEditorConfig.editorconfig
+/Users/josefanderberg/source/repos/CalculateBMI/obj/Debug/net9.0/CalculateBMI.AssemblyInfoInputs.cache
+/Users/josefanderberg/source/repos/CalculateBMI/obj/Debug/net9.0/CalculateBMI.AssemblyInfo.cs
+/Users/josefanderberg/source/repos/CalculateBMI/obj/Debug/net9.0/CalculateBMI.csproj.CoreCompileInputs.cache
+/Users/josefanderberg/source/repos/CalculateBMI/obj/Debug/net9.0/CalculateBMI.sourcelink.json
+/Users/josefanderberg/source/repos/CalculateBMI/obj/Debug/net9.0/CalculateBMI.dll
+/Users/josefanderberg/source/repos/CalculateBMI/obj/Debug/net9.0/refint/CalculateBMI.dll
+/Users/josefanderberg/source/repos/CalculateBMI/obj/Debug/net9.0/CalculateBMI.pdb
+/Users/josefanderberg/source/repos/CalculateBMI/obj/Debug/net9.0/CalculateBMI.genruntimeconfig.cache
+/Users/josefanderberg/source/repos/CalculateBMI/obj/Debug/net9.0/ref/CalculateBMI.dll
