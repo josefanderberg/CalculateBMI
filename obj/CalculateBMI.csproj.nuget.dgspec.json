@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/josefanderberg/source/CalculateBMI/CalculateBMI.csproj": {}
+    "/Users/josefanderberg/source/repos/CalculateBMI/CalculateBMI.csproj": {}
   },
   "projects": {
-    "/Users/josefanderberg/source/CalculateBMI/CalculateBMI.csproj": {
+    "/Users/josefanderberg/source/repos/CalculateBMI/CalculateBMI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/josefanderberg/source/CalculateBMI/CalculateBMI.csproj",
+        "projectUniqueName": "/Users/josefanderberg/source/repos/CalculateBMI/CalculateBMI.csproj",
         "projectName": "CalculateBMI",
-        "projectPath": "/Users/josefanderberg/source/CalculateBMI/CalculateBMI.csproj",
+        "projectPath": "/Users/josefanderberg/source/repos/CalculateBMI/CalculateBMI.csproj",
         "packagesPath": "/Users/josefanderberg/.nuget/packages/",
-        "outputPath": "/Users/josefanderberg/source/CalculateBMI/obj/",
+        "outputPath": "/Users/josefanderberg/source/repos/CalculateBMI/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/josefanderberg/.nuget/NuGet/NuGet.Config"
