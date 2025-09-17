@@ -1,19 +1,54 @@
 ﻿using System;
-
 class Program
 {
-
-
     static void Main(string[] args)
     {
+        // Validera enhetssystemet
+        string unit;
+        while (true)
+        {
+            Console.WriteLine("BMI Calculator! Select metric or imperial (m/i):");
+            unit = Console.ReadLine()!.ToLower();
 
-        Console.WriteLine("BMI Calculator! Select meteric or imperial(m/i):");
-        string unit = Console.ReadLine()!.ToLower();
+            if (unit == "metric" || unit == "m" || unit == "imperial" || unit == "i")
+            {
+                break;
+            }
+            else
+            {
+                Console.WriteLine("Invalid unit. Please enter 'm' or 'i'.");
+            }
+        }
 
-        Console.WriteLine("Enter weight:");
-        double weight = Convert.ToDouble(Console.ReadLine());
-        Console.WriteLine("Enter height:");
-        double height = Convert.ToDouble(Console.ReadLine());
+        // Validera vikt
+        double weight;
+        while (true)
+        {
+            Console.WriteLine("Enter weight:");
+            if (double.TryParse(Console.ReadLine(), out weight) &&  0 < weight)
+            {
+                break;
+            }
+            else
+            {
+                Console.WriteLine("Invalid weight. Please enter a valid positive number.");
+            }
+        }
+
+        // Validera längd
+        double height;
+        while (true)
+        {
+            Console.WriteLine("Enter height:");
+            if (double.TryParse(Console.ReadLine(), out height) && 0 < height)
+            {
+                break;
+            }
+            else
+            {
+                Console.WriteLine("Invalid height. Please enter a valid positive number.");
+            }
+        }
 
         // Standardanrop med default enhet (metric)
         double bmi1 = CalculateBMI(weight, height);
@@ -28,22 +63,19 @@ class Program
         Console.WriteLine($"BMI (imperial): {bmi3:F2}");
     }
 
-
     static double CalculateBMI(double weight, double height, string unit = "metric")
     {
-        // Example usage of the new C# 13.0 feature: Primary Constructors for non-record classes
+        // Beräkna BMI baserat på enhetssystemet
         if (unit == "metric" || unit == "m")
         {
+            // Metric
             return weight / (height * height);
-        }
-        else if (unit == "imperial" || unit == "i")
-        {
-            return 703 * (weight / (height * height));
         }
         else
         {
-            Console.WriteLine("Unknown unit system.");
-            return -1;
+            //Imperial
+            return 703 * (weight / (height * height));
         }
+
     }
 }
